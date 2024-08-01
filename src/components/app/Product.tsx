@@ -21,12 +21,6 @@ import Divider from "@mui/material/Divider";
 import CloseIcon from "@mui/icons-material/Close";
 import AddIcon from "@mui/icons-material/Add";
 import axios from "axios";
-import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
-import TimelineContent from "@mui/lab/TimelineContent";
-import TimelineDot from "@mui/lab/TimelineDot";
 
 export default function Product() {
   const { id } = useParams();
@@ -91,59 +85,13 @@ export default function Product() {
                         کتاب {book.name} خاکستری جلد اول Angie Sage
                       </h2>
                       <div>
-                        {/* <ul className="mt-6 mb-2 text-grey-600 text-right text-xs font-normal tracking-[0.24px]">
+                        <ul className="mt-6 mb-2 text-grey-600 text-right text-xs font-normal tracking-[0.24px]">
                           <li className="mb-2">نویسنده: الن مورفی</li>
                           <li className="mb-2">ژانر: تاریخی-تخیلی</li>
                           <li className="mb-2">تعداد صفحه: 248</li>
                           <li className="mb-2">شابک: 11</li>
                           <li>ترجمه: دارد</li>
-                        </ul> */}
-                        <Timeline position="right" className="mt-6 mb-2 ">
-                          <TimelineItem className="h-2">
-                            <TimelineSeparator>
-                              <TimelineDot />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent className="text-grey-600 text-right text-xs font-normal h-2 tracking-[0.24px]">
-                              نویسنده: الن مورفی
-                            </TimelineContent>
-                          </TimelineItem>
-                          <TimelineItem>
-                            <TimelineSeparator>
-                              <TimelineDot />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent className="text-grey-600 text-right text-xs font-normal tracking-[0.24px]">
-                              ژانر: تاریخی-تخیلی
-                            </TimelineContent>
-                          </TimelineItem>
-                          <TimelineItem>
-                            <TimelineSeparator>
-                              <TimelineDot />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent className="text-grey-600 text-right text-xs font-normal tracking-[0.24px]">
-                              تعداد صفحه: 248
-                            </TimelineContent>
-                          </TimelineItem>
-                          <TimelineItem>
-                            <TimelineSeparator>
-                              <TimelineDot />
-                              <TimelineConnector />
-                            </TimelineSeparator>
-                            <TimelineContent className="text-grey-600 text-right text-xs font-normal tracking-[0.24px]">
-                              شابک: 11
-                            </TimelineContent>
-                          </TimelineItem>
-                          <TimelineItem>
-                            <TimelineSeparator>
-                              <TimelineDot />
-                            </TimelineSeparator>
-                            <TimelineContent className="text-grey-600 text-right text-xs font-normal tracking-[0.24px]">
-                              ترجمه: دارد
-                            </TimelineContent>
-                          </TimelineItem>
-                        </Timeline>
+                        </ul>
                       </div>
                     </div>
                   </div>
