@@ -58,5 +58,12 @@ export default {
 
 
 ![login1](https://github.com/user-attachments/assets/5fadb348-c7dd-4d51-9ffe-75228c98515b)
+
+
 ![login2](https://github.com/user-attachments/assets/67afad6f-635f-4c30-a301-bd3fb6f7bb56)
 
+
+![products](https://github.com/user-attachments/assets/22d6e319-1d0a-4fb8-9dab-220cf6027084)
+
+
+![product](https://github.com/user-attachments/assets/842893ab-e0e2-4df4-9416-d38ba7d4ff07)
