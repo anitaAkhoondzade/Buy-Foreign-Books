@@ -30,7 +30,6 @@ import Products from "./components/app/Products.tsx";
 import Product from "./components/app/Product.tsx";
 import ResultSearch from "./components/app/ResultSearch.tsx";
 import BuyBasket from "./components/app/BuyBasket.tsx";
-import SplashScreen from "./components/auth/SplashScreen.tsx";
 
 const router = createBrowserRouter([
   {
@@ -72,11 +71,6 @@ const router = createBrowserRouter([
       {
         path: "/resultsearch",
         element: <ResultSearch />,
-        children: [],
-      },
-      {
-        path: "/splash",
-        element: <SplashScreen />,
         children: [],
       },
       {

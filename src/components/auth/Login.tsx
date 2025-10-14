@@ -31,9 +31,9 @@ export default function Login() {
     setPhone(e.target.value);
   };
 
-  const handleChangePhoneWithButton = () => {
-    setPhone("09104964383");
-  };
+  // const handleChangePhoneWithButton = () => {
+  //   setPhone("09104964383");
+  // };
   useEffect(() => {
     setError(false);
   }, [phone]);
@@ -45,7 +45,7 @@ export default function Login() {
       </p>
 
       <div className="flex flex-col w-[328px]">
-        <Button onClick={handleChangePhoneWithButton}>test</Button>
+        {/* <Button onClick={handleChangePhoneWithButton}>test</Button> */}
         <TextField
           error={error}
           helperText={error ? "شماره موبایل وارد شده اشتباه است." : undefined}
